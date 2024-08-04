@@ -1,0 +1,123 @@
+* {
+  color: purple;
+}
+
+/* styles.css */
+
+div {
+    color: white;
+  }
+  
+
+
+.alert-text {
+    color: red;
+  }
+
+
+#title {
+    background-color: red;
+}
+  
+.read,
+.unread {
+    color: white;div {
+    color: white;
+  }
+  
+
+.read {
+    /* several unique declarations */
+}
+
+.unread {
+    /* several unique declarations */
+}
+  
+.subsection.header {
+    color: red;
+}
+  
+.subsection.header {
+color: red;
+}
+
+.subsection#preview {
+color: blue;
+}
+
+.ancestor .contents {
+/* some declarations */
+}
+  
+p {
+  /* hex example: */
+  color: #1100ff;
+}
+
+p {
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+}
+
+p {
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+text {
+    font-family: "Times New Roman", serif;
+    font-size: 22px
+    font-weight: bold
+    font-weight: 700
+    text-align: center
+}
+
+<!-- index.html -->
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- index.html -->
+
+<head>
+  <style>
+    div {
+      color: white;
+      background-color: black;
+    }
+
+    p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  ...
+</body>
+
+
+<body>
+  <div style="color: white; background-color: black;">...</div>
+</body>
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
